@@ -1,0 +1,28 @@
+public class StringBufferExample {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		String name = "Manoj";
+		System.out.println(name.concat("kumar"));
+		System.out.println(name);
+		StringBuffer name1 = new StringBuffer("Manojj");
+		System.out.println(name1.append("kumarrrr"));
+		System.out.println(name1);
+
+		System.out.println("Reverse");
+		System.out.println(name1.reverse());
+		System.out.println("replace");
+		StringBuffer replace = new StringBuffer("Manojjjjj ");
+		System.out.println(replace.replace(0, 1, "kummm"));
+		System.out.println("delete");
+		StringBuffer delete = new StringBuffer("akakakakak ");
+		System.out.println(delete.delete(0, 3));
+		System.out.println("insert");
+		StringBuffer insert = new StringBuffer("mamamamama ");
+		System.out.println(insert.insert(5, "sha"));
+		System.out.println("capacity");
+		System.out.println(insert.capacity());
+
+	}
+
+}
