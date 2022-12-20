@@ -20,7 +20,7 @@ public class StringBufferExample {
 		System.out.println("insert");
 		StringBuffer insert = new StringBuffer("mamamamama ");
 		System.out.println(insert.insert(5, "sha"));
-		System.out.println("capacit");
+		System.out.println("capat");
 		System.out.println(insert.capacity());
 
 	}
